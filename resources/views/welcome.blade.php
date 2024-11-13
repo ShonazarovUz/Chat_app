@@ -134,10 +134,11 @@ body {
     <div class="container">
         <div class="sidebar">
             <h2>Chats</h2>
-            <div class="chat-list">     
-                    <div class="chat-item">Chat 1</div>
-                    <div class="chat-item">Chat 2</div>
-                    <div class="chat-item">Chat 3</div>
+            
+            <div class="chat-list">
+                @foreach($users as $user)
+                    <div class="chat-item">{{$user->name}}</div>
+                @endforeach
             </div>
         </div>
         <div class="chat-window">
