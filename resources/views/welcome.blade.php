@@ -18,6 +18,7 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #f5f5f5;
+    background-color: #2a2a2a;
 }
 
 .container {
@@ -30,7 +31,6 @@ body {
 
 .sidebar {
     width: 30%;
-    background-color: #2a2a2a;
     color: #fff;
     display: flex;
     flex-direction: column;
@@ -134,10 +134,10 @@ body {
     <div class="container">
         <div class="sidebar">
             <h2>Chats</h2>
-            <div class="chat-list">
-                <div class="chat-item">Chat 1</div>
-                <div class="chat-item">Chat 2</div>
-                <div class="chat-item">Chat 3</div>
+            <div class="chat-list">     
+                    <div class="chat-item">Chat 1</div>
+                    <div class="chat-item">Chat 2</div>
+                    <div class="chat-item">Chat 3</div>
             </div>
         </div>
         <div class="chat-window">
